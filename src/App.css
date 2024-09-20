@@ -12,19 +12,16 @@ body {
 
 /* Main Container */
 .main {
-  max-width: 1000px;
-  max-height: 100%;
+  max-width: 1000px; 
   margin: auto;
-  position: relative;
-  z-index: 2;
   padding-top: 5%;
   padding-bottom: 2%;
 }
 
 /* Heading Styles */
 h1 {
-  display: flex; /* Use flexbox for alignment */
-  align-items: center; /* Vertically center items */
+  display: flex;
+  align-items: center;
   padding: 20px;
   width: 100%;
   margin: 0;
@@ -35,9 +32,9 @@ h1 {
 }
 
 .header img {
-  width: 150px; /* Adjust the width of the profile image */
-  height: auto; /* Maintain aspect ratio */
-  margin-right: 2%; /* Space between the image and text */
+  width: 150px; 
+  height: auto; 
+  margin-right: 2%; 
 }
 
 .headertext {
@@ -49,6 +46,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   margin: 8px -20px;
+  padding-bottom: 1%;
 }
 
 .row > .column {
@@ -65,20 +63,19 @@ h1 {
 }
 .content {
   background-color: white;
-  padding: 80px;
+  padding: 2%;
   text-align: center;
 }
 
 .navbar {
   background: #adb2cc;
-  padding-bottom: 20%;
+  max-width: 98%;
 }
 
 h2 {
   display: flex;
   align-items: center;
-  padding: 20px;
-  margin: 0;
+  margin-left: 3ch;
   background: #adb2cc;
   color: white !important;
   font-size: 30px;

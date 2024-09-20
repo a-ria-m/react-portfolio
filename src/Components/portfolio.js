@@ -10,7 +10,7 @@ const Portfolio = (props) => {
                 <button
                     className="btn btn-sm btn-outline-secondary"
                     data-bs-toggle="modal"
-                    data-bs-target={props.modal}
+                    data-bs-target={`#${props.modal}`}
                 >
                     More info
                 </button>
